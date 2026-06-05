@@ -10,7 +10,7 @@ on:
       STOCK_DEVICE:
         description: "STOCK_DEVICE_MODEL or None"
         required: true
-        default: "SM-A225F"
+        default: "SM-A235F"
       TARGET_DEVICE:
         description: "TARGET_DEVICE_MODEL."
         required: true
@@ -34,7 +34,7 @@ on:
       COMPRESS_IMG_TO_XZ:
         description: "Compress IMG to XZ (True/False)"
         required: true
-        default: "True"
+        default: "false"
 
 jobs:
   build:
